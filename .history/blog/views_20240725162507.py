@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def starting_page(request):
-    return render(request, "blog/index.html")
+    return render(req)
 
 def posts(request):
     return HttpResponse("<h1>All Posts!</h1>")
